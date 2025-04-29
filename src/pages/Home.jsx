@@ -1,11 +1,63 @@
+import React from 'react';
+import Banner from '../components/Banner';
+
 function Home() {
     return (
-      <section>
-        <h1>Bem-vindo à Mecânica WC!</h1>
-        <p>Serviços de confiança para seu carro.</p>
-      </section>
+        <main>
+           <Banner />
+
+            <section style={styles.servicos}>
+                <h2 style={styles.servicosTitulo}>Nossos serviços</h2>
+                <ul style={styles.servicosLista}>
+                    <li>✅Troca de óleo</li>
+                    <li>✅Alinhamento e balanceamento</li>
+                    <li>✅Revisão completa</li>
+                    <li>✅Freios e suspensão</li>
+                    <li>✅Troca de pneus</li>
+                </ul>
+            </section>
+
+            <section style={styles.sobre}>
+                <h2 style={styles.sobreTitulo}>Sobre nós</h2>
+                <p style={styles.sobreParagrafo}>Na Mecânica WC, oferecemos serviços de alta qualidade para garantir que seu carro esteja sempre em ótimo estado. Nossa equipe é composta por profissionais experientes e dedicados.</p>
+            </section>
+        </main>
+
     );
   }
   
-  export default Home;
+  const styles = {
+    servicos:{
+        padding: "30px 20px",
+        backgroundColor: "#fff"
+    },
+    servicosTitulo:{
+        color: "#4d4c4c",
+        fontSize: "22px",
+        marginBottom: "10px",
+    },
+    servicosLista:{
+        listStyle: "none",
+        padding: 0,
+        color: "#333",
+        fontSize: "16px",
+        lineHeight: "1.6",
+    },
+    sobre:{
+        padding: "30px 20px",
+        backgroundColor: "#f9f9f9",
+    },
+    sobreTitulo:{
+        fontSize: "22px",
+        marginBottom: "10px",
+    },
+    sobreParagrafo: {
+        fontSize: "16px",
+        color: "#555",
+        lineHeight: "1.5",
+    }
+}
+
+  
+export default Home;
   
