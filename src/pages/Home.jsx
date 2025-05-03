@@ -1,21 +1,12 @@
 import React from 'react';
 import Banner from '../components/Banner';
+import Services from '../components/Services';
 
 function Home() {
     return (
         <main>
-           <Banner />
-
-            <section style={styles.servicos}>
-                <h2 style={styles.servicosTitulo}>Nossos serviços</h2>
-                <ul style={styles.servicosLista}>
-                    <li>✅Troca de óleo</li>
-                    <li>✅Alinhamento e balanceamento</li>
-                    <li>✅Revisão completa</li>
-                    <li>✅Freios e suspensão</li>
-                    <li>✅Troca de pneus</li>
-                </ul>
-            </section>
+            <Banner />
+            <Services />
 
             <section style={styles.sobre}>
                 <h2 style={styles.sobreTitulo}>Sobre nós</h2>
