@@ -1,25 +1,24 @@
 import React from 'react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const WhatsAppButton = () =>{
     return(
-        <a href="https://api.whatsapp.com/send?phone=5521983844493"
+        <a href="https://wa.me/5521983844493?text=Olá%2C%20gostaria%20de%20saber%20mais%20informações."
         target="_blank"
         rel="noopener noreferrer" 
         style={{
             position: 'fixed',
-            bottom: '20px',
-            right: '20px',
+            bottom: '15px',
+            right: '15px',
             backgroundColor: '#25D366',
             color: 'white',
-            padding: '12px 16px',
+            padding: '10px 12px',
             borderRadius: '50%',
             textDecoration: 'none',
-            fontSize: '24px',
+            fontSize: '11px',
             zIndex: 1000,
           }}>
-             💬
-            {/* <i className="fab fa-whatsapp"></i>
-            <span style={{ marginLeft: '8px' }}>Chat with us</span> */}
+            <FaWhatsapp size={30} />
 
         </a>
     )
