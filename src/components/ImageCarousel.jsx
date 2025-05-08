@@ -1,11 +1,11 @@
 import React, {useState} from "react";
-import carro1 from "../assets/images/carro1.jpg";
-import carro2 from "../assets/images/carro2.jpg";
-import carro3 from "../assets/images/carro3.jpg";
+import foto1 from "../assets/images/foto1.jpg";
+import foto2 from "../assets/images/foto2.jpg";
+import foto3 from "../assets/images/foto3.jpg";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 
-const images = [carro1, carro2, carro3];
+const images = [foto1, foto2, foto3];
 
 const ImageCarousel = () => {
     // Mantém o índice da imagem atual
