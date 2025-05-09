@@ -3,9 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color-scheme: light dark; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,6 +15,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  /* color: inherit; */
 }
 
 body {
@@ -47,6 +50,15 @@ body {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footerLink{
+  color: #8fafd8;
+  font-weight: bold;
+  transition: .2s ease-in-out;
+  &&:hover{
+    color: #dddbdb;
+  }
 }
 
 @media (max-width: 768px){
