@@ -9,6 +9,9 @@ const Banner = () =>{
             <div style={styles.texto}>
                 <h1 style={styles.titulo}>Bem-vindo à WIBRACAR!</h1>
                 <p style={styles.subtitulo}>Serviço rápido e confiável para o seu carro!</p>
+                <a className="btnBanner" href="https://wa.me/5521983844493?text=Olá%2C%20gostaria%20de%20realizar%20um%20orçamento."
+                target="_blank"
+                rel="noopener noreferrer">Faça o seu orçamento!</a>
             </div>
         </section>
     );
@@ -51,7 +54,7 @@ const styles = {
     },
     subtitulo:{
         fontSize: "20px",
-        marginTop: "10px"
+        margin: "20px auto"
     },
 };
 
