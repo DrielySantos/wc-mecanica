@@ -40,7 +40,12 @@ const styles = {
         zIndex: 1,
     },
     texto:{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
         position: "absolute",
+        width: "100%",
+        height: "50%",
         top: "50%",
         left: "50%",
         transform: "translate(-50%, -50%)",
@@ -49,12 +54,12 @@ const styles = {
         zIndex: 2,
     },
     titulo:{
-        fontSize: "40px",
+        fontSize: "2.2rem",
         margin: 0,
     },
     subtitulo:{
-        fontSize: "20px",
-        margin: "20px auto"
+        fontSize: "1.2rem",
+        margin: "15px auto"
     },
 };
 
