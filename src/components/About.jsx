@@ -3,7 +3,7 @@ import ImageCarousel from "./ImageCarousel";
 
 const About = () =>{
     return(
-        <section style={styles.sobre}>
+        <section style={styles.sobre} id="sobre">
             <h2 style={styles.sobreTitulo}>Sobre nós</h2>
             <p style={styles.sobreParagrafo}>Na Mecânica WC, oferecemos serviços de alta qualidade   para garantir que seu carro esteja sempre em ótimo estado. Nossa equipe é composta por profissionais experientes e dedicados. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum harum perferendis expedita odit optio iste at nulla voluptatibus repellendus dolor natus hic, quaerat ipsam fugit culpa itaque nihil placeat blanditiis.
             </p>

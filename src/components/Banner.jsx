@@ -21,7 +21,7 @@ const styles = {
     banner:{
         position: "relative",
         width: "100%",
-        height: "300px",
+        height: "100px auto",
         overflow: "hidden",
     },
     image:{

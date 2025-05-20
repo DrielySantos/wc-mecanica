@@ -3,7 +3,7 @@ import React from "react";
 
 const Services = () => {
     return(
-        <section style={styles.container}>
+        <section style={styles.container} id="servicos">
             <h2 style={styles.titulo}>Serviços</h2>
                 <ul className="servicos-lista">
                     <li><Droplet color="#241e8e" size={25} style={{ marginRight: "6px" }} />Troca de óleo</li>
